@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-image: url('quarto1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+
+.horarioBox {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    display: flex; 
+    
+}   
+
+.horasdoBox {
+    flex: 1; 
+    margin: 0 15px; 
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-align: center; 
+    width: 200px;
+
+}
+
+.horarioAtual{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
